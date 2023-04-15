@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "cabin";
+  src: url("../public/fonts/Cabin/Cabin-Regular.ttf");
+}
+@font-face {
+  font-family: "roboto";
+  src: url("../public/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+:root {
+  /* BG */
+  --primary-bg: rgba(19, 49, 57, 1);
+  --secondary-bg: #ffffff;
+  --footer-bg: rgba(0, 0, 0, 1);
+  --footer-seconfdary-bg: rgba(196, 96, 2, 1);
+  /* color */
+  --primary-color: rgba(255, 255, 255, 1);
+  --secondary-color: rgba(0, 0, 0, 1);
+  --third-color: rgba(196, 96, 2, 1);
+  /* font-size */
+  --fs-xxl: 107px;
+  --fs-xl: 85.6px;
+  --fs-l: 32.1px;
+  --fs-m: 26.7px;
+  --fs-s: 21.4px;
+  --fs-xs: 16.05px;
+  /* margin */
+  --margin-xs: 31px;
+  --margin-s: 50px;
+  --margin-m: 70px;
+  --margin-l: 85px;
+  --margin-xl: 95px;
+  /* font-family */
+  --primary-ff: "cabin";
+  --secondary-ff: "roboto";
+}

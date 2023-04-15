@@ -1,0 +1,60 @@
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-start {
+  display: flex;
+  justify-content: start;
+}
+.flex-evenly {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.simple-txt-xxl {
+  font-size: var(--fs-xxl);
+}
+
+.simple-txt-xl {
+  font-size: var(--fs-xl);
+}
+
+.simple-txt-l {
+  font-size: var(--fs-l);
+}
+
+.simple-txt-m {
+  font-size: var(--fs-m);
+}
+
+.simple-txt-s {
+  font-size: var(--fs-s);
+}
+
+.bg-blue {
+  background: var(--primary-bg);
+}
+
+.bg-white {
+  background: var(--secondary-bg);
+}
+
+.bg-black {
+  background: var(--secondary-color);
+}
+.bg-orange {
+  background: var(--third-color);
+}
+.upper {
+  text-transform: uppercase;
+}
+.align-self-center {
+  align-self: center;
+}
